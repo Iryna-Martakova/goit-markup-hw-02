@@ -11,6 +11,10 @@ body {
   line-height: 1.5;
 }
 
+.nav-list {
+  line-height: 1.5;
+}
+
 .address {
   font-style: normal;
 }
@@ -24,6 +28,7 @@ body {
   font-size: 56px;
   color: #fff;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .main-button {
@@ -43,14 +48,20 @@ body {
 
 .team {
   text-align: center;
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 footer {
   background: #2e2f42;
 }
 
-footer p {
+.footer-text {
   color: #f4f4fd;
+  line-height: 1.5;
 }
 
 a {
@@ -87,6 +98,7 @@ h2 {
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
+  letter-spacing: 0.02em;
 }
 
 h3 {
