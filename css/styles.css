@@ -17,6 +17,7 @@ body {
 
 .address {
   font-style: normal;
+  line-height: 1.5;
 }
 
 .main {
@@ -44,6 +45,10 @@ body {
 .main-button:hover,
 .main-button:focus {
   background: #404bbf;
+}
+
+.list-text {
+  line-height: 1.5;
 }
 
 .team {
@@ -94,11 +99,12 @@ button:focus {
 
 h2 {
   font-weight: 700;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
   font-size: 36px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 h3 {
@@ -106,6 +112,7 @@ h3 {
   line-height: 1.2;
   color: #2e2f42;
   font-size: 20px;
+  letter-spacing: 0.02em;
 }
 
 .logo {
